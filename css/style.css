@@ -24,6 +24,9 @@ a:hover{
 
 /*---- Logo ----*/
 
+#logo h1{
+    float: left; /* Para ficar um ao lado do outro */
+}
 #logo a{
     width: 248px;
     height: 21px;
@@ -60,3 +63,92 @@ nav ul li a:link{
 nav ul li a:hover{
     border-bottom: 1px solid #535858;
 }
+
+/*---- Principal ----*/
+
+#conteudo{
+    width: 710px;
+    float: left;
+
+}
+
+/*---- Lateral ----*/
+
+aside{
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+    padding-bottom: 30px;
+}
+
+section#visita{
+    background: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+
+/*---- Galeria ----*/
+
+
+section#galeria{
+    /* Centralizando tudo */
+    padding: 0 27px 0 27px;
+
+}
+
+section#galeria a{
+    /* Imagem sob a outra */
+    display: block;
+    background: url('../img/fundo-foto.png') no-repeat;
+    float: left; /*Ficar um ao lado do outro*/
+
+    /* Centralizando imagem */
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+}
+
+section#galeria img{
+     /* Centralizando imagem */
+    margin-left: 2px;
+    margin-top: 3px;
+
+}
+
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+/*---- Formulários ----*/
+
+input{
+    height: 20px;
+    width: 80px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+
+}
+
+input.campo{
+    border: 1px solid #ada484;
+}
+
+input.botao{
+    background: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+fieldset{
+    border: none;
+}
+
+fieldset legend{
+    display: none;
+}
+

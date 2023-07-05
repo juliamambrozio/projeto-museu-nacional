@@ -36,8 +36,57 @@
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
-            
+
         </header>
+
+        <div id="principal"> <!-- Começo principal -->
+            <main id="conteudo"> <!-- Começo conteúdo -->
+                <section id="capa">
+                    <img src="img/museu.png" alt="Imagem principal museu">
+
+                </section>
+            </main> <!-- Fim conteúdo -->
+
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="Imagem depoimento Museu Nacional">
+                </section>
+
+                <section id="visita"> <!-- Começo visita -->
+                    <h4>Faça uma visita</h4>
+                    <form action="get">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+                            <label for="data">Data:</label>
+                            <input type="date" name="data" id="data" class="campo">
+
+                            <label for="num">Qtd pessoas:</label>
+                            <input type="number" name="num" id="num" value="1" class="campo" style="width: 38px;">
+                        </fieldset>
+
+                        <input type="submit" value="Verificar disponibilidade" class="botao">
+
+                    </form>
+                </section> <!-- Fim visita -->
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="#">
+                        <img src="img/imagem1.jpg" alt="Imagem 1 galeria de fotos" style="width: 93px; height: 93px;">
+                    </a>
+                    <a href="#">
+                        <img src="img/imagem2.jpg" alt="Imagem 2 galeria de fotos" style="width: 93px; height: 93px;">
+                    </a>
+                    <a href="#">
+                        <img src="img/imagem3.jpg" alt="Imagem 3 galeria de fotos" style="width: 93px; height: 93px;">
+                    </a>
+                    <a href="#">
+                        <img src="img/imagem4.jpg" alt="Imagem 4 galeria de fotos" style="width: 93px; height: 93px;">
+                    </a>
+                </section>
+            </aside>
+        </div> <!-- Fim principal -->
+
         
     </div> <!-- fim container -->
 </body>
